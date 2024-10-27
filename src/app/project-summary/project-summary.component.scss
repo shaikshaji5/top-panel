@@ -1,0 +1,46 @@
+
+.project-summary {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    .label {
+      background-color: #ffcc00;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    .title {
+      font-weight: bold;
+      color: #c00;
+    }
+  }
+
+  .details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-size: 0.85rem;
+        color: #555;
+      }
+
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}
